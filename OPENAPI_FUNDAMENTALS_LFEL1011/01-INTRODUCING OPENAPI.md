@@ -78,7 +78,39 @@ Accurately describing the properties of an API has become and continues to be cr
 
 ### 3.3 What does an API description language solve for ?
 
+Communicating accurately with a developer audience is at the heart of what an API description language provides.
 
+These languages are intended to provide two things:
+- -A document that can help a human being understand a given API through a structure that is aligned to how APIs work, along with descriptions that can help clarify the operation.
+- A specification that can be consumed by tooling to assist in specific tasks. Example tasks may include generating a client that consumes an API, generating a server that implements an API, mocking APIs, linting API descriptions, and activity that takes place in an API lifecycle.
 
+Establishing a common vernacular shared between API providers and API consumers is critical to the success of any API program. API description languages aim to provide this to developer communities.
 
+### 3.4 What API description languages exist ?
+
+Several description languages exist alongside OpenAPI. Examples include RAML, API Blueprint, and Swagger, which developed alongside each other with their user bases and communities. Each follows a similar mechanism of using a structured and human-readable notation language like JSON or YAML coupled with an object specification and descriptions formatted in Markdown to provide a complete representation of the structure of an API.
+
+In the history of the development of API description languages, Swagger is the most significant in the context of OpenAPI. Swagger was created by SmartBear Software and was used in both their product and open source tools to describe APIs. Swagger was donated by SmartBear in 2015 to the OpenAPI Initiative (OAI) and forms the basis of the OpenAPI Specification, which is arguably the most prevalent API description language in use today.
+
+## 4 An overview of OpenAPI
+
+### 4.1 An overview of OpenAPI
+
+OpenAPI is a language that enables the transfer of knowledge from API providers to API consumers (and across the entire API lifecycle). It is an open standard for describing your APIs, allowing you to provide an API description encoded in a JSON or YAML document. Like all description languages, it provides a comprehensive dictionary of terms that reflects commonly-understood concepts in the world of APIs, embedding the fundamentals of HTTP and JSON as we’ve already discussed. When teamed up with supporting tools it can provide a rich experience based on a simple document.
+
+The OpenAPI Specification is looked after by the OpenAPI Initiative, a consortium that shepherds the development of the Specification. Organizations in the industry can apply for membership in order to participate in the development of the standard. The Initiative has an open governance structure under the Linux Foundation and is focused on creating, evolving and promoting a vendor-neutral and programming-language agnostic description format. The development of the standard is led by the Technical Steering Committee who evaluate and ultimately author changes to the specification.
+
+Vendor neutrality is the cornerstone of what the OpenAPI Initiative is about. The Specification is designed to be used by any software or API provider, tooling maker, or anyone who needs to describe their API with the widest possible reach.
+
+This makes OpenAPI a fundamental building block for the API Economy. As we’ve discussed, other description languages exist but all serve as an essential communication tool. Given its primacy, OpenAPI leads the way in supporting communications between API providers and API consumers and providing a shared vocabulary for all who participate in the API lifecycle.
+
+### 4.2 Other OpenAPI Initiative Specifications
+
+The development of the standard is at the forefront of the efforts of the OpenAPI Initiative. However, other members of the OpenAPI community overlay the specification with standards for specific industries and verticals. Special Interest Groups (SIGs) are among the most important.
+
+SIGs play a valuable role within the OpenAPI ecosystem by focusing on specific areas or topics related to the specification. These groups are composed of individuals or organizations with a shared interest in advancing and addressing particular aspects of the specification. They focus expertise around a given problem, validate use cases, solve challenges and help develop suitable standards as an output of their activities.
+
+The Workflows SIG is an example of such an effort where a group has taken a specific problem and looked to define a standardized outcome. This SIG has created the workflow description language called Arazzo that overlays OpenAPI and is engineered for defining workflows that require calling more than one API endpoint. It provides the means to pass arguments between those APIs, mapping them together in an end-to-end description of what needs to be executed to complete a given workflow.
+
+Arazzo provides an example of the role of OpenAPI as a building block in the API Economy. The interconnectedness of platforms and the use of software-as-a-service means that API consumers need to knit together services and data from several API calls across one or more API providers. Arazzo builds on top of the rich information OpenAPI delivers. Without it, Arazzo could not function as it would lack the capability to successfully describe API calls and their results.
 
