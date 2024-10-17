@@ -222,6 +222,11 @@ An extension of LXC (Linux Containers) that provides a simpler, more user-friend
 
 ## M
 
+### Marathon
+Marathon is a container orchestration platform used to deploy and manage containerized applications in a distributed system. It is built on top of Apache Mesos and serves as a framework for running long-running services in a Mesos cluster. Marathon ensures that applications are always running by automatically restarting failed instances and scaling the number of instances as needed.
+
+It supports containerized workloads, such as those using Docker, and provides features like load balancing, health checks, and high availability. Marathon is often used in conjunction with Mesos to manage complex, large-scale distributed environments.
+
 ### Markdown
 A lightweight markup language that allows users to format plain text using a simple syntax, making it easy to create structured documents. Markdown is widely used for writing documentation, notes, and content for websites due to its readability and simplicity. It supports basic formatting options such as headings, lists, links, images, and code blocks, which can be converted into HTML or other formats for display. Popular applications and platforms, like GitHub and various content management systems, use Markdown to enhance user experience and streamline content creation.
 
@@ -245,6 +250,11 @@ An open-source web server and reverse proxy server known for its high performanc
 ### Node.js
 An open-source, cross-platform JavaScript runtime environment that allows developers to execute JavaScript code on the server side. Built on the V8 JavaScript engine from Google Chrome, Node.js enables the development of scalable and high-performance network applications, particularly web servers. It uses an event-driven, non-blocking I/O model, making it efficient for handling multiple connections simultaneously. Node.js has a rich ecosystem of libraries and frameworks available through npm (Node Package Manager), making it a popular choice for building APIs, real-time applications, and microservices.
 
+### Nomad
+Nomad is a flexible, open-source workload orchestrator developed by HashiCorp. It is designed to manage the deployment and scheduling of applications across various environments, including on-premise and cloud infrastructures. Nomad can handle a wide range of workloads, including containerized applications (like Docker), non-containerized applications, batch processing, and even virtual machines.
+
+Nomad is known for its simplicity, scalability, and ability to integrate with other HashiCorp tools like Consul and Vault. It provides features such as multi-region support, high availability, and dynamic scaling, making it a versatile option for managing distributed applications and services.
+
 ### NoSQL
 A class of database management systems that do not follow the traditional relational database model. NoSQL databases are designed to handle large volumes of unstructured or semi-structured data, providing flexibility and scalability for modern applications. They can store data in various formats, including key-value pairs, documents, graphs, or wide-column stores. NoSQL databases are often used in scenarios requiring high availability, horizontal scalability, and fast read/write operations, making them popular for big data, real-time analytics, and cloud-based applications. Examples of NoSQL databases include MongoDB, Cassandra, and Redis.
 
@@ -252,6 +262,11 @@ A class of database management systems that do not follow the traditional relati
 
 ### OCI (Open Container Initiative)
 A governance structure for creating open industry standards around container formats and runtimes. Established in 2015, the OCI aims to promote interoperability and consistency across container technologies by defining specifications for how containers are created, packaged, and executed. This includes the OCI Runtime Specification, which outlines how to run a container, and the OCI Image Specification, which defines how container images are structured. The initiative helps ensure that different container tools and platforms can work seamlessly together, fostering a more collaborative and standardized container ecosystem.
+
+### Orchestrator
+An Orchestrator is a tool or platform that automates, manages, and coordinates the deployment, scaling, and operation of applications, containers, or services across multiple systems. It ensures that all components of a distributed system work together seamlessly.
+
+In DevOps, orchestrators like Kubernetes manage containerized applications, handling tasks such as starting, stopping, and scaling containers, load balancing, and ensuring high availability. Orchestrators help maintain complex infrastructure with minimal manual intervention, improving efficiency and reliability in deployment pipelines.
 
 ### OSI (Open Systems Interconnection)
 A conceptual framework developed by the International Organization for Standardization (ISO) that standardizes the functions of a telecommunication or computing system into seven distinct layers. The OSI model helps facilitate communication between different systems and networks by providing a common reference for understanding how data is transmitted. The seven layers are:
@@ -286,6 +301,9 @@ An open-source, object-relational database management system (ORDBMS) that empha
 A process conducted after an incident, outage, or failure to analyze what went wrong, identify the root cause, and propose improvements to prevent similar issues in the future. Post-mortems are typically performed by DevOps, IT, and engineering teams following significant events that impact system performance, availability, or security.
 
 A post-mortem includes a timeline of the incident, a detailed analysis of contributing factors, lessons learned, and a list of action items to address the issues. The goal is to foster a culture of learning, transparency, and continuous improvement, ensuring that teams can respond more effectively in the future.
+
+### Power BI
+Power BI is a business analytics tool developed by Microsoft that allows users to visualize data, create interactive dashboards, and generate detailed reports. It connects to a wide range of data sources, transforming raw data into meaningful insights through charts, graphs, and data visualizations. Power BI is used by organizations to monitor performance, track key metrics, and make data-driven decisions. It is accessible through desktop, cloud, and mobile applications, and integrates with other Microsoft services such as Excel, Azure, and SharePoint.
 
 ### PowerShell
 A task automation and configuration management framework developed by Microsoft, consisting of a command-line shell and an associated scripting language. PowerShell is designed for system administrators to automate tasks across Windows and other operating systems. It allows users to run commands, manage system settings, and interact with various services and APIs, making it a powerful tool for managing IT environments.
@@ -333,6 +351,13 @@ Runbooks help standardize processes, ensuring consistency and reducing human err
 A systems programming language focused on safety, concurrency, and performance. Rust provides memory safety without using garbage collection, thanks to its ownership model and strict compile-time checks. It is designed to prevent common programming errors like null pointer dereferencing and data races, making it suitable for developing reliable and efficient software, including operating systems, game engines, and web applications.
 
 ## S
+
+### Scalability
+Scalability refers to the ability of a system, application, or infrastructure to handle increased load or demand by expanding its resources. A scalable system can efficiently grow or shrink based on the workload, without sacrificing performance or stability. Scalability can be achieved in two main ways:
+- Vertical scaling (scale-up): Adding more power (CPU, RAM, etc.) to an existing server.
+- Horizontal scaling (scale-out): Adding more servers or instances to distribute the load across multiple systems.
+
+Scalability is a critical aspect of system design, especially for applications expected to grow or handle variable loads, such as web services and cloud environments.
 
 ### SED (Stream Editor)
 A command-line utility used in Unix/Linux environments for parsing and transforming text in a stream or file. SED allows users to perform basic text transformations, such as searching, replacing, and deleting lines, using simple commands and regular expressions. It is commonly used in shell scripting and automation tasks for batch processing text data efficiently.
