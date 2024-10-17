@@ -189,6 +189,9 @@ An open-source automation server that helps automate parts of software developme
 ### JIRA
 A project management and issue tracking tool developed by Atlassian, commonly used in software development to plan, track, and manage agile projects. JIRA helps teams organize tasks, assign responsibilities, and monitor progress through customizable workflows, making it easier to manage projects and improve collaboration among team members.
 
+### JSON
+JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate. It represents data as key-value pairs and supports simple data types such as strings, numbers, arrays, objects, and booleans. JSON is widely used in web development for transmitting data between a server and a client, especially in APIs. Its simplicity and language independence have made it a popular choice for data exchange in a variety of applications, including configuration files and data storage.
+
 ## K
 
 ### Kafka (Apache)
@@ -279,6 +282,11 @@ A group of backend servers managed by F5 Big-IP that receive traffic from a virt
 ### PostgreSQL
 An open-source, object-relational database management system (ORDBMS) that emphasizes extensibility, standards compliance, and robustness. PostgreSQL supports a wide variety of data types, including JSON, XML, and custom types, allowing for complex data modeling. It features advanced capabilities such as ACID (Atomicity, Consistency, Isolation, Durability) compliance, full-text search, and support for concurrent transactions. PostgreSQL is known for its reliability, performance, and ability to handle large datasets, making it a popular choice for web applications, data warehousing, and geospatial data processing.
 
+### Post-mortem
+A process conducted after an incident, outage, or failure to analyze what went wrong, identify the root cause, and propose improvements to prevent similar issues in the future. Post-mortems are typically performed by DevOps, IT, and engineering teams following significant events that impact system performance, availability, or security.
+
+A post-mortem includes a timeline of the incident, a detailed analysis of contributing factors, lessons learned, and a list of action items to address the issues. The goal is to foster a culture of learning, transparency, and continuous improvement, ensuring that teams can respond more effectively in the future.
+
 ### PowerShell
 A task automation and configuration management framework developed by Microsoft, consisting of a command-line shell and an associated scripting language. PowerShell is designed for system administrators to automate tasks across Windows and other operating systems. It allows users to run commands, manage system settings, and interact with various services and APIs, making it a powerful tool for managing IT environments.
 
@@ -316,6 +324,11 @@ A type of proxy server that sits between client devices and backend servers, for
 ### Roll Back
 The process of reverting a system, application, or database to a previous state or version, usually after an unsuccessful update, deployment, or change. Rolling back is used to restore functionality and stability when new changes introduce bugs or issues, ensuring that the system continues to operate smoothly with the last known good configuration.
 
+### Runbook
+A detailed set of instructions or procedures used by IT and DevOps teams to perform routine operational tasks or resolve known issues. Runbooks are typically created for tasks such as server configuration, software deployment, incident response, and troubleshooting common problems.
+
+Runbooks help standardize processes, ensuring consistency and reducing human error when executing complex or repetitive tasks. They can be manual or automated, and are often part of an organization's knowledge base to enable quick responses to operational issues.
+
 ### Rust
 A systems programming language focused on safety, concurrency, and performance. Rust provides memory safety without using garbage collection, thanks to its ownership model and strict compile-time checks. It is designed to prevent common programming errors like null pointer dereferencing and data races, making it suitable for developing reliable and efficient software, including operating systems, game engines, and web applications.
 
@@ -332,6 +345,14 @@ A command-line interface that allows users to interact with the operating system
 
 ### Slack
 A cloud-based messaging platform designed for team communication and collaboration. Slack provides channels for group discussions, direct messaging for private conversations, and integration with various tools and services. It helps teams stay connected, share information, and manage projects more efficiently in a centralized environment.
+
+### SOLID
+A set of five design principles aimed at improving software design and making it more maintainable, scalable, and robust. The acronym stands for:
+- S: Single Responsibility Principle – A class should have only one reason to change, meaning it should only have one job or responsibility.
+- O: Open/Closed Principle – Software entities should be open for extension but closed for modification, allowing new features to be added without altering existing code.
+- L: Liskov Substitution Principle – Objects of a superclass should be replaceable with objects of a subclass without affecting the functionality of the program.
+- I: Interface Segregation Principle – Clients should not be forced to depend on interfaces they do not use, promoting the creation of smaller, more specific interfaces.
+- D: Dependency Inversion Principle – High-level modules should not depend on low-level modules, but both should depend on abstractions (interfaces).
 
 ### Spring Boot
 An extension of the Spring framework that simplifies the development of stand-alone, production-grade Spring applications. Spring Boot provides a set of conventions and pre-configured settings that eliminate much of the boilerplate code required in traditional Spring applications. It enables developers to quickly set up and run applications with minimal configuration, supports embedded servers, and includes built-in features for monitoring and managing application health.
@@ -396,7 +417,13 @@ A deployment automation tool developed by XebiaLabs (now part of Digital.ai) tha
 ### XL Release
 A release management tool developed by XebiaLabs (now part of Digital.ai) that helps organizations automate and manage the software release process across various environments. XL Release provides features for planning, tracking, and coordinating releases, allowing teams to visualize their workflows, integrate with CI/CD pipelines, and improve collaboration. It aims to enhance the speed and quality of software delivery by providing visibility and control over the release process.
 
+### XML
+XML (eXtensible Markup Language) is a flexible, text-based format used to structure, store, and transport data. It allows users to define their own tags, making it highly adaptable for various applications. XML is both human-readable and machine-readable. Though less common today for web data exchange (superseded by JSON), XML is still widely used in many systems for configuration files, document formats (like Microsoft Office files), and data transfer between systems. It supports complex nested structures and is often used in contexts where extensive metadata and validation (through schemas like DTD or XSD) are required.
+
 ## Y
+
+### YAML
+YAML (YAML Ain't Markup Language) is a human-readable data serialization format often used for configuration files and data exchange between programming languages. It uses a simple, indentation-based structure to represent complex data in a clean and readable way. YAML is commonly used in DevOps for defining configurations in tools like Kubernetes, Ansible, and CI/CD pipelines, as it allows for easy representation of nested structures like lists, dictionaries, and key-value pairs. Its simplicity and clarity make it a popular choice for writing configuration files over formats like JSON or XML.
 
 ## Z
 
