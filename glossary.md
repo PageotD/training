@@ -176,6 +176,13 @@ A term used to describe a software architecture where the front-end (user interf
 ### Helm
 A package manager for Kubernetes that streamlines the deployment and management of applications on Kubernetes clusters. Helm uses a templating system to define application configurations in charts, which are reusable and versioned packages containing all the necessary resources for an application. With Helm, users can easily install, upgrade, and manage Kubernetes applications, simplifying the process of deploying complex applications and ensuring consistency across environments.
 
+### Hypervisor
+A Hypervisor is a software layer that enables the creation, management, and operation of virtual machines (VMs) on a single physical host. It separates the physical resources (such as CPU, memory, and storage) of a machine, allowing multiple VMs to run independently with their own operating systems and applications on the same hardware. There are two main types of hypervisors:
+- Type 1 (Bare-metal hypervisor): Runs directly on the physical hardware (e.g., VMware ESXi, Microsoft Hyper-V, KVM).
+- Type 2 (Hosted hypervisor): Runs on top of a host operating system (e.g., VMware Workstation, Oracle VirtualBox).
+
+Hypervisors are key components in virtualization, enabling efficient resource usage and isolation in data centers, cloud environments, and development.
+
 ## I
 
 ### IP (Internet Protocol)
